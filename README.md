@@ -1,2 +1,2 @@
 # Modern-Typelist
-A C++ 20 approach to implementing a Typelist as described by Andrei Alexandrescu in his book "Modern C++ Design: Generic Programming and Design Patterns Applied". 
+A C++ 20 approach to implementing a Typelist as described by Andrei Alexandrescu in his book "Modern C++ Design: Generic Programming and Design Patterns Applied ''. This is done in a single header file for ease of use. Changes made from the original description includes: using "using" statements for type aliasing instead of using "typedef", hiding recursive the list implementation within a controller class and using consteval functions to allow for a more object oriented style.
